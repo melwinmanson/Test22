@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "esbuild src/index.js --bundle --minify --watch --outfile=dist/index.js"
+    "build": "esbuild src/index.js --bundle --minify --watch --outfile=dist/index.js"
   },
   "author": "",
   "license": "ISC",
